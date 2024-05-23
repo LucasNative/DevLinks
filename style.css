@@ -1,0 +1,52 @@
+:root {
+  --text-color-white:#ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color-white);
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover ;
+}
+
+#conteiner {
+  width: 360px;
+  height: 712px;
+  border: 1px solid red;
+  margin: 56px auto 0;
+}
+
+.profile {
+  padding: 24px;
+  text-align: center; /*A tag img tem o comportamento inline, aceitando cer alinhada dessa forma pelo elemento pai*/
+}
+
+.profile img {
+  width: 112px;
+  border-radius: 50%;
+  border: 2px solid #bcbcbc;
+}
+
+.profile p {
+  margin-top: 8px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.links {
+  list-style: none;
+}
+
+.links li a {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+}
